@@ -75,15 +75,15 @@
  	height: 50%;
 }
 .column-wrapper{
-	width: 100%;
-	margin: 0 auto;
+	float:right;
+	  height: 207px;
+  width: 30%;
+  padding-top: 33px;
 }
 
 .sidebar-col{
-	color:   #acd61d ;
 	float: right;
-	width: 33.5%;
-	padding: 5px 1.5%;
+	padding: 5px 2.5%;
 }
 
 .body-sec{
@@ -101,11 +101,17 @@
 }
 
 .table-log{
-	color: brown;
-	margin: 0 auto;
-	width: 65%;
- 	height: 50%;
+	margin-right: 0px;
+	padding-top: 5px;
+	  width:712px;
+  height: 207px;
+ 	float: left;
+ 	
 }
 .chart1{
 	margin-left: 230px;
+}
+.chart-gaadi{
+	display: inline-block;
+	float: left;
 }
